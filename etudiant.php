@@ -6,10 +6,6 @@ class etudiant extends MembreEcole{
 
         echo "Je suis [nom], un étudiant de [âge] ans.";
     }
-    // public function __construct($nom, $age){
-    //     $this->nom = $nom;
-    //     $this->age = $age;
-    // }
     public function getNom(){
         return $this->nom;
     }
